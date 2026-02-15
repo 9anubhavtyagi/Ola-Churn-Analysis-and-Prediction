@@ -1,0 +1,37 @@
+Timeline: 2019-2020 (COVID)
+
+Driver level monthly data
+
+Education: {
+    10+: 0,
+    12+: 1,
+    graduate: 2
+}
+
+Last Working Date: {
+    null: not left,
+    date: left
+}
+
+df.head().style.bg_gradient(cmap='Blues')
+
+--------------------------------------------------------------------------------
+Dealing with Null values-
+
+1. Drop Null value --> Model 1
+2. Impute (Mean, median, mode)  --> Model 2
+3. Impute using knn--> Model 3
+
+Do AB testing b/w model performance
+
+--------------------------------------------------------------------------------
+How to perform kNN on dataset of 1 Billion records.
+
+1. Create 10 cluster
+2. Find the cluster which is closer to test point (using only centroids of cluster)
+3. Perform kNN on dataset of closest cluster
+
+
+--------------------------------------------------------------------------------
+Feature Engineering:-
+

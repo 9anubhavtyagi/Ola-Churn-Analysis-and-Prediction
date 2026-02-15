@@ -1,0 +1,7 @@
+# .gitignore
+
+bronze/ola_driver_scaler - check.csv
+
+# data/bronze/
+# data/silver/
+# data/gold/
